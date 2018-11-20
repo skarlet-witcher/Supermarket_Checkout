@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="603765fb-5f7c-4504-9ab1-d46c0075884d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/Menu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/Menu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/SimulationResult$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/SimulationResult$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/SimulationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/gui/SimulationResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/services/Services$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/services/Services$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/services/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/services/Services.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/threads/CustomerAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/threads/CustomerAdder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/threads/ProductScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/threads/ProductScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/bin/utils/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/bin/utils/Record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/gui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/gui/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/gui/SimulationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/gui/SimulationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/services/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/services/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/threads/CustomerAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/threads/CustomerAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/threads/ProductScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/threads/ProductScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/utils/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/utils/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supermarket_Checkout/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supermarket_Checkout/src/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +58,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-849268996">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Supermarket_Checkout/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="288">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -90,6 +83,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Supermarket_Checkout/src/main/Main.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -108,8 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +124,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,11 +187,12 @@
       <workItem from="1539115484157" duration="78000" />
       <workItem from="1539115581937" duration="126000" />
       <workItem from="1542036951048" duration="1683000" />
+      <workItem from="1542752748742" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2261000" />
+    <option name="totallyTimeSpent" value="2290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,9 +204,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506073" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25910932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Supermarket_Checkout/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="288">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>

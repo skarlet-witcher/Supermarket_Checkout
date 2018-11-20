@@ -16,9 +16,6 @@ public class Main {
 		try {
 			Menu window = new Menu();
 			window.getfrmMenu().setVisible(true);
-			double figure = 2;
-			double figure2 = 3;
-			System.out.println(figure/figure2);
 
 		} catch (Exception e) {
 			e.printStackTrace();
