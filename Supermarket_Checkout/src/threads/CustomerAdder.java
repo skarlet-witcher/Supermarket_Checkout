@@ -125,6 +125,7 @@ public class CustomerAdder implements Runnable {
 							customer_id++;
 							continue;
 						}
+
 						distributeCustomer.addCustomer(simulationWindow, temp_minimal_queue, customer_id,
 								productNum, "Waiting", checkoutNum, checkoutList);
 
@@ -174,7 +175,16 @@ public class CustomerAdder implements Runnable {
 					
 				} else {
 
-
+					if(temp_minimal_queue.size() > 6) {
+						// Record: the total number of the lost customers
+						Record.getInstance().setLostCustomerNum(Record.getInstance().getLostCustomerNum() + 1);
+						Record.getInstance().setTotalCustomerNum(Record.getInstance().getTotalCustomerNum() + 1);
+						// output the info of lost customer
+						System.out.println("Customer " + customer_id + " Lost!");
+						System.out.println("------------------------------------");
+						customer_id++;
+						continue;
+					}
 
 					distributeCustomer.addCustomer(simulationWindow, temp_minimal_queue, customer_id, 
 							productNum, "Waiting", checkoutNum, checkoutList);
