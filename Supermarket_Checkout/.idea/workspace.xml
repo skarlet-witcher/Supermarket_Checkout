@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c8b9376-b41e-4c3e-b467-76ed61480594" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Supermarket_Checkout.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Supermarket_Checkout.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/components/Checkout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/components/Checkout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/components/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/components/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/gui/Menu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/Menu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/gui/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/gui/SimulationResult$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/SimulationResult$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/gui/SimulationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/SimulationResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/services/Services$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/services/Services$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/services/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/services/Services.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/threads/CustomerAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/threads/CustomerAdder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/threads/ProductScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/threads/ProductScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/utils/RandomNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/utils/RandomNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/utils/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/utils/Record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SimulationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SimulationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/CustomerAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/CustomerAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ProductScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ProductScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/RandomNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/RandomNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Record.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c8b9376-b41e-4c3e-b467-76ed61480594" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,14 +67,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="288172892">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="-144">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -145,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -199,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,6 +254,8 @@
       <workItem from="1542194606629" duration="2113000" />
       <workItem from="1542223658622" duration="842000" />
       <workItem from="1542380202560" duration="305000" />
+      <workItem from="1542752778646" duration="104000" />
+      <workItem from="1542799917698" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="use intellij">
       <created>1539107105424</created>
@@ -300,17 +285,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541448370238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="use intellij">
+      <created>1542752788656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542752788656</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35893000" />
+    <option name="totallyTimeSpent" value="36108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.25182188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.25991902" />
       <window_info id="Structure" order="1" sideWeight="0.50332224" side_tool="true" weight="0.16518219" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="-144">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
