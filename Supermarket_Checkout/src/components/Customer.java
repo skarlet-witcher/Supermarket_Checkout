@@ -133,9 +133,4 @@ public class Customer {
 		this.status = status;
 		this.updateStatus();
 	}
-	
-	
-	
-	
-	
 }
