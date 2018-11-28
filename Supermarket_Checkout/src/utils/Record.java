@@ -333,10 +333,10 @@ public class Record {
 		long openTime;
 		
 		// make the attribute with the same type
-		double totalUtilizedTime = 0;
-		double temp1;
-		double temp2;
-		double checkoutNum;
+		double totalUtilizedTime = 0.000;
+		long temp1;
+		long temp2;
+		long checkoutNum;
 		double utilizedTime;
         Checkout currentCheckout;
 		// init the format of outputting the percentage
@@ -360,7 +360,7 @@ public class Record {
 
 			temp1 = openTime;
 			temp2 = elapsedTime;
-			utilizedTime = temp1/temp2;
+			utilizedTime = temp1/(double)temp2;
 			// make the percentage more precise (non-determinism?)
 			if(utilizedTime >= 1) {
 				utilizedTime = 1;
@@ -395,7 +395,7 @@ public class Record {
 				((this.getTotalWaitTime()/1000) % 60) + " sec ");
 		System.out.println("");
 		System.out.println("Average customer waiting time: " + 
-		(((this.getTotalWaitTime() / this.totalCustomerNum) / 1000) / 60) + " min " + 
+		(((this.getTotalWaitTime() / this.totalCustomerNum) / 1000) / 60) + " min " +
 		(((this.getTotalWaitTime() / this.totalCustomerNum) / 1000) % 60) + " sec ");
 		System.out.println("");
 		System.out.println("----------------------------------");
