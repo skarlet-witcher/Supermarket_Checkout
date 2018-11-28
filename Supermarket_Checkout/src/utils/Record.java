@@ -331,7 +331,6 @@ public class Record {
 		long FinishTime = System.currentTimeMillis();
 		long elapsedTime = FinishTime - this.getStartSimulationTime();
 		long openTime;
-		
 		// make the attribute with the same type
 		double totalUtilizedTime = 0.000;
 		long temp1;
